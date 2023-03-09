@@ -1,0 +1,206 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 90px;
+    margin:50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color:  #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:  #66BFBF;
+    font-weight: nromal;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #66BFBF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999E;
+}
+
+.bottom-container a{
+    color: #11999E;
+}
+.middle-container a{
+    color: #11999E;
+}
+.top-container a{
+    color: #11999E;
+}
+.top_container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;   
+}
+.programmer{
+    font-size: 2.5rem;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute; 
+    right:500px;
+    top: 50px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+
+.bottom-container{
+    background-color: #66bfbf;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.my_photo{
+    height: 150px;
+    width: 150px; 
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+.my_photo:hover{
+    height: 180px;
+    width: 180px;    
+    transition: .3s;
+}
+.profile{
+    margin-bottom: 50px;
+}
+
+.my_skills{
+    height: 200px;
+    width: 200px;
+    transition: 0.3s;
+    float: left;
+    margin-right:50px;
+    
+}
+
+.my_skills:hover{
+    height: 230px;
+    width: 230px;
+    transition: .3s;    
+}
+
+.skill-row{
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skills-p{
+    width:50%;
+    text-align: center;
+    margin: 200px auto 100px auto;
+    line-height: 2;
+}
+
+.web_development{
+    height: 150px;
+    width: 150px;
+    margin-right: 100px;
+    transition: 0.3s;
+    float: left;    
+}
+.web_development:hover{
+    height: 180px;
+    width: 180px;
+    transition: .3s;
+    
+}
+.framework{
+    height: 170px;
+    width: 170px;
+    transition: .3s;
+    float: left;
+    margin-right: 80px;    
+}
+.framework:hover{
+    width:200px;
+    height:200px;
+    transition: .3s;
+}
+
+.data-science{
+    height: 180px;
+    width: 180px;
+    transition: .3s;
+    float: left;
+    margin-right: 70px;    
+}
+.data-science:hover{
+    width:220px;
+    height:220px;
+    transition: .3s;
+}
+.travel{
+    height: 150px;
+    width:150px;
+    transition: 0.3s;
+}
+.travel:hover{
+    height: 180px;
+    width:180px;
+    transition: .3s;
+}
+.trv{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.food{
+    height: 130px;
+    width:130px;
+    transition: 0.3s;
+    margin-left: 50px;
+}
+.food:hover{
+    height: 160px;
+    width:160px;
+    transition: .3s;     
+}
+
+.cv_img{
+    height: 150px;
+    width: 150px;
+    transition: 0.3s;
+}
+.cv_img:hover{
+    height: 180px;
+    width: 180px;
+    transition: .3s;   
+}
+
+.cv{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.cvlink{
+    text-decoration: none;
+}
+.cvlink:hover{
+    color: red;    
+}
